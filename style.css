@@ -79,17 +79,20 @@ a:hover {
     bottom:0;
     left:0;
     right:0;
-}
-
+}/*
 .texture-paper::before {
     background:url(img/texture-paper.png);
     background-size:280px 280px;
 }
+*/
 
 .b-parallax {
     background-attachment:fixed;
 }
-
+.black {
+    color: #000;
+    font-size: 1.3em;
+}
 .d-bloc {
     color:rgba(255,255,255,.7);
 }
@@ -230,6 +233,8 @@ a:hover {
 
 #bloc-1-hero h1 { 
     font-size:32px;
+    font-weight: bold;
+ 
 }
 
 .navbar {
@@ -270,7 +275,7 @@ a:hover {
 .nav>li { 
     float:left;
     margin-top:4px;
-    font-size:24px;
+    font-size:16px;
 }
 
 .navbar-nav .open .dropdown-menu>li>a {
@@ -575,16 +580,12 @@ a[data-lightbox]:hover img {
     color:#575757;
 }
 
-p.text-center {
-    font-size: 16px;
-}
-
 .container {
     max-width:1000px;
 }
 
 .hero-bloc-text {
-    font-size: 40px;
+    font-size:38px;
 }
 
 .hero-bloc-text-sub {
@@ -602,7 +603,7 @@ p.text-center {
 }
 
 p {
-    font-size:13px;
+    font-size:16px;
 }
 
 .tight-width-whitespace {
@@ -611,7 +612,7 @@ p {
 }
 
 .h1 {
-    font-size:20px;
+    font-size: 24px;
     font-family:"Open Sans";
 }
 
@@ -620,13 +621,14 @@ p {
     color:#fff;
     text-transform:uppercase;
     padding:12px 28px 12px 28px;
-    font-size: 24px;
+    font-size:16px;
     font-weight:700;
 }
 
 .social {
     max-width:400px;
     margin:auto auto auto auto;
+    font-size: 1.8em;
 }
 
 h2 {
@@ -662,7 +664,6 @@ h4 {
 
 .white {
     color:#fff;
-    font-size: 20px;
 }
 
 .portfolio-thumb {
@@ -680,7 +681,7 @@ h4 {
 }
 
 .black-background {
-    background-color:rgba(165,147,99,.7);
+    background-color:rgba(248, 213, 15, 0.7);
     padding:40px 40px 40px 40px;
 }
 
@@ -816,9 +817,9 @@ h4 {
         background-attachment:scroll;
     }
     .navbar .nav {
-        padding-top: 0;
-        border-top: 1px solid rgba(0,0,0,.2);
-        float: none;
+        padding-top:0;
+        border-top:1px solid rgba(0,0,0,.2);
+        float:none;
     }
     .navbar.row {
         margin-left:0;
@@ -843,8 +844,8 @@ h4 {
     }
     .dropdown .dropdown a .caret {
         float:none;
-        margin: 5px 0 0 10px;
-        border: 4px solid #000;
+        margin:5px 0 0 10px;
+        border:4px solid #000;
         border-bottom-color:transparent;
         border-right-color:transparent;
         border-left-color:transparent;
