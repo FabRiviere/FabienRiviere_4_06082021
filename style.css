@@ -86,6 +86,11 @@ a:hover {
 }
 */
 
+.tc-black {
+    color: #000;
+    font-weight: bold;
+}
+
 .b-parallax {
     background-attachment:fixed;
 }
